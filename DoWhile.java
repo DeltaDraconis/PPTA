@@ -3,37 +3,37 @@ import java.util.Scanner;
 public class DoWhile {
     public static void main(String[] args) {
         //do while
-        //int a = 1;
-        //do {
-        //    System.out.println(a);
-        //    a+=2;
-        //}
-        //while(a<=25);
+        /*int a = 1;
+        do {
+            System.out.println(a);
+            a+=2;
+        }
+        while(a<=25);
 
         //zad 1
-        //int a = 1;
-        //do{
+        int a = 1;
+        do{
 
-        //    System.out.println(a);
-        //    a++;
-        //}while(a <= 100);
+            System.out.println(a);
+            a++;
+        }while(a <= 100);
         //zad 2
 
-        //int a = 1000;
-        //do{
-        //System.out.print(a+", ");
-        //    a = a + 1;
+        int a = 1000;
+        do{
+        System.out.print(a+", ");
+            a = a + 1;
 
-        //}while(a<=1020);
+        }while(a<=1020);
 
         //zad 3
-        //int a = -30;
-        //do{
-        //    a=a+1;
-        //   if(a % 5 == 0) {
-        //        System.out.println(a);
-        //    }
-        //}while(a <=1000);
+        int a = -30;
+        do{
+            a=a+1;
+           if(a % 5 == 0) {
+                System.out.println(a);
+            }
+        }while(a <=1000);
 
         //zad 2 i 3 w jednym
         Scanner powtorz = new Scanner(System.in);
@@ -60,20 +60,21 @@ public class DoWhile {
             }
 
 
-        }
+        }*/
         //zad 4 b
-        Scanner Scann = new Scanner(System.in);
-        System.out.println("podaj dzielnik: ");
-        int dzielnik = powtorz.nextInt();
+        Scanner liczby = new Scanner(System.in);
+        System.out.println("Podaj ilość dzielników: ");
+        int d = liczby.nextInt();
+        System.out.println("Podaj początek przedziału: ");
+        int p = liczby.nextInt();
+        System.out.println("Podaj koniec przedziału: ");
+        int k = liczby.nextInt();
+        for(int i = 0;i <= d;i++){
+            System.out.println("Podaj dzielnik: ");
+            int il = liczby.nextInt();
+            }
 
-        System.out.println("podaj początek zakresu: ");
-        int poc = powtorz.nextInt();
 
-        System.out.println("podaj koniec zakresu: ");
-        int kon = powtorz.nextInt();
-        for(int b=poc;int o=kon;int b=b+1){
-
-        }
 
 
 
